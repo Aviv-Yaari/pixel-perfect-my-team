@@ -1,24 +1,29 @@
 {
   "files": {
-    "main.css": "/pixel-perfect-my-team/static/css/main.354e4167.chunk.css",
-    "main.js": "/pixel-perfect-my-team/static/js/main.3fab2d2a.chunk.js",
-    "main.js.map": "/pixel-perfect-my-team/static/js/main.3fab2d2a.chunk.js.map",
+    "main.css": "/pixel-perfect-my-team/static/css/main.3c4b982f.chunk.css",
+    "main.js": "/pixel-perfect-my-team/static/js/main.af828070.chunk.js",
+    "main.js.map": "/pixel-perfect-my-team/static/js/main.af828070.chunk.js.map",
     "runtime-main.js": "/pixel-perfect-my-team/static/js/runtime-main.e87e7052.js",
     "runtime-main.js.map": "/pixel-perfect-my-team/static/js/runtime-main.e87e7052.js.map",
     "static/js/2.2655244d.chunk.js": "/pixel-perfect-my-team/static/js/2.2655244d.chunk.js",
     "static/js/2.2655244d.chunk.js.map": "/pixel-perfect-my-team/static/js/2.2655244d.chunk.js.map",
     "index.html": "/pixel-perfect-my-team/index.html",
-    "static/css/main.354e4167.chunk.css.map": "/pixel-perfect-my-team/static/css/main.354e4167.chunk.css.map",
+    "static/css/main.3c4b982f.chunk.css.map": "/pixel-perfect-my-team/static/css/main.3c4b982f.chunk.css.map",
     "static/js/2.2655244d.chunk.js.LICENSE.txt": "/pixel-perfect-my-team/static/js/2.2655244d.chunk.js.LICENSE.txt",
     "static/media/main.scss": "/pixel-perfect-my-team/static/media/Livvic-SemiBold.f5f72371.ttf",
     "static/media/avatar-aiysha.e119a0c1.jpg": "/pixel-perfect-my-team/static/media/avatar-aiysha.e119a0c1.jpg",
     "static/media/avatar-arthur.098c2e26.jpg": "/pixel-perfect-my-team/static/media/avatar-arthur.098c2e26.jpg",
-    "static/media/avatar-kady.78fc482c.jpg": "/pixel-perfect-my-team/static/media/avatar-kady.78fc482c.jpg"
+    "static/media/avatar-kady.78fc482c.jpg": "/pixel-perfect-my-team/static/media/avatar-kady.78fc482c.jpg",
+    "static/media/bg-pattern-home-1.270440fb.svg": "/pixel-perfect-my-team/static/media/bg-pattern-home-1.270440fb.svg",
+    "static/media/bg-pattern-home-2.889d5d8c.svg": "/pixel-perfect-my-team/static/media/bg-pattern-home-2.889d5d8c.svg",
+    "static/media/bg-pattern-home-4-about-3.aacd4e03.svg": "/pixel-perfect-my-team/static/media/bg-pattern-home-4-about-3.aacd4e03.svg",
+    "static/media/bg-pattern-home-5.95a2a621.svg": "/pixel-perfect-my-team/static/media/bg-pattern-home-5.95a2a621.svg",
+    "static/media/bg-pattern-home-6-about-5.d6ab17f2.svg": "/pixel-perfect-my-team/static/media/bg-pattern-home-6-about-5.d6ab17f2.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.e87e7052.js",
     "static/js/2.2655244d.chunk.js",
-    "static/css/main.354e4167.chunk.css",
-    "static/js/main.3fab2d2a.chunk.js"
+    "static/css/main.3c4b982f.chunk.css",
+    "static/js/main.af828070.chunk.js"
   ]
 }
