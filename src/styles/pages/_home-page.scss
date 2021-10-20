@@ -1,0 +1,169 @@
+.home-page {
+  .section-wrapper {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+  }
+  .home-section {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1100px;
+  }
+
+  .btn-rounded {
+    padding: 0.4rem 1rem;
+    border: 2px solid $clr-primary-3;
+    border-radius: 40px;
+    background-color: transparent;
+  }
+
+  // Hero Section
+
+  .section-wrapper-hero {
+    background-color: $clr-primary-1;
+  }
+
+  .home-navbar {
+    position: absolute;
+    top: 90px;
+    width: 1100px;
+    .img-logo {
+      margin-right: 80px;
+    }
+    a {
+      margin-right: 45px;
+    }
+    .btn-contact {
+      margin-left: auto;
+      &:hover {
+        background-color: $clr-primary-3;
+        color: $clr-primary-1;
+      }
+    }
+  }
+  .hero-text {
+    h1 {
+      max-width: 515px;
+      span {
+        color: $clr-primary-2;
+      }
+    }
+    p {
+      align-self: flex-end;
+      margin-bottom: 8px;
+      max-width: 455px;
+    }
+  }
+
+  //   Teams Section
+  .section-wrapper-teams {
+    background-color: $clr-secondary-4;
+    .home-section-teams {
+      h2 {
+        max-width: 400px;
+      }
+      .team-list {
+        max-width: 530px;
+        gap: 45px;
+      }
+      .team-details {
+        gap: 20px;
+        h4 {
+          color: $clr-primary-2;
+          margin-bottom: 10px;
+        }
+      }
+    }
+  }
+
+  //   Stories Section
+  .section-wrapper-stories {
+    background-color: $clr-secondary-3;
+    .home-section-stories {
+      text-align: center;
+      h2 {
+        margin-bottom: 100px;
+        span {
+          color: $clr-secondary-1;
+        }
+      }
+      .story {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 35px;
+        position: relative;
+        .quote {
+          font-size: rem(15px);
+        }
+        .story-author {
+          > :first-child {
+            color: $clr-secondary-1;
+            font-weight: 600;
+          }
+          > :nth-child(2) {
+            font-style: italic;
+            font-size: rem(13px);
+          }
+        }
+        .img-quote {
+          position: absolute;
+          left: 50%;
+          opacity: 15%;
+          filter: brightness(5);
+          transform: translate(-50%, -50%);
+        }
+        .img-avatar {
+          height: 65px;
+          width: 65px;
+          border: 2px solid $clr-secondary-1;
+          border-radius: 50%;
+        }
+      }
+    }
+  }
+
+  //   Contact Section
+  .section-wrapper-contact {
+    background-color: $clr-primary-2;
+    min-height: 200px;
+    * {
+      color: $clr-secondary-4;
+    }
+    .btn-contact {
+      border-color: $clr-secondary-4;
+      &:hover {
+        background-color: $clr-secondary-4;
+        color: $clr-primary-3;
+      }
+    }
+  }
+
+  //   Footer Section
+  .section-wrapper-footer {
+    background-color: $clr-secondary-5;
+    min-height: 200px;
+    .logo-and-links {
+      .img-logo-wrapper {
+        margin-bottom: 20px;
+      }
+      a {
+        margin-right: 45px;
+      }
+    }
+    .address {
+      font-size: rem(15px);
+      margin-left: 125px;
+    }
+    .social-icons {
+      margin-left: auto;
+      text-align: right;
+      img:not(:last-child) {
+        margin-right: 16px;
+      }
+      p {
+        margin-top: auto;
+      }
+    }
+  }
+}
