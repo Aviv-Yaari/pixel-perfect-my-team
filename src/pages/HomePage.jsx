@@ -2,6 +2,11 @@ import LogoImg from '../img/logo.png';
 import QuoteImg from '../img/quote.png';
 import OvalIcon from '../img/oval.png';
 // import OvalOutlinedIcon from '../img/oval-outlined.png';
+import { ReactComponent as BgPattern1 } from '../img/bg-pattern-home-1.svg';
+import { ReactComponent as BgPattern2 } from '../img/bg-pattern-home-2.svg';
+import { ReactComponent as BgPattern5 } from '../img/bg-pattern-home-5.svg';
+import { ReactComponent as BgPattern4About3 } from '../img/bg-pattern-home-4-about-3.svg';
+import { ReactComponent as BgPattern6About5 } from '../img/bg-pattern-home-6-about-5.svg';
 import KadyAvatar from '../img/avatar-kady.jpg';
 import AiyshaAvatar from '../img/avatar-aiysha.jpg';
 import ArthurAvatar from '../img/avatar-arthur.jpg';
@@ -21,6 +26,7 @@ export function HomePage() {
             <button className="btn-rounded btn-contact">contact us</button>
           </nav>
           <div className="flex hero-text space-between">
+            <BgPattern1 className="bg-pattern bg-pattern-1" />
             <h1 className="grow">
               Find the best <span>talent</span>
             </h1>
@@ -28,6 +34,9 @@ export function HomePage() {
               Finding the right people and building high performing teams can be hard. Most companies aren’t tapping
               into the abundance of global talent. We’re about to change that.
             </p>
+          </div>
+          <div className="bg-pattern bg-pattern-2">
+            <BgPattern2 />
           </div>
         </section>
       </div>
@@ -61,6 +70,8 @@ export function HomePage() {
       </div>
       <div className="section-wrapper section-wrapper-stories flex justify-center">
         <section className="home-section home-section-stories">
+          <BgPattern4About3 className="bg-pattern bg-pattern-4-about-3" />
+          <BgPattern5 className="bg-pattern bg-pattern-5" />
           <h2>
             Delivering real results for top companies.
             <br />
@@ -107,6 +118,7 @@ export function HomePage() {
         </section>
       </div>
       <div className="section-wrapper section-wrapper-contact">
+        <BgPattern6About5 className="bg-pattern bg-pattern-6-about-5" />
         <section className="home-section home-section-contact flex space-between">
           <h2>Ready to get started?</h2>
           <button className="btn-rounded btn-contact">Contact Us</button>

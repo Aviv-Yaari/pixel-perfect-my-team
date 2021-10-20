@@ -1,13 +1,16 @@
 .home-page {
+  // General
+
   .section-wrapper {
     display: flex;
     align-items: center;
     min-height: 100vh;
+    position: relative;
   }
   .home-section {
     margin: 0 auto;
     width: 100%;
-    max-width: 1100px;
+    max-width: $home-layout-width;
   }
 
   .btn-rounded {
@@ -17,7 +20,22 @@
     background-color: transparent;
   }
 
+  .bg-pattern {
+    position: absolute;
+  }
+
   // Hero Section
+
+  .bg-pattern-1 {
+    left: -100px;
+  }
+
+  .bg-pattern-2 {
+    width: $home-layout-width;
+    display: flex;
+    justify-content: flex-end;
+    bottom: 0;
+  }
 
   .section-wrapper-hero {
     background-color: $clr-primary-1;
@@ -26,7 +44,7 @@
   .home-navbar {
     position: absolute;
     top: 90px;
-    width: 1100px;
+    width: $home-layout-width;
     .img-logo {
       margin-right: 80px;
     }
@@ -80,6 +98,14 @@
   .section-wrapper-stories {
     background-color: $clr-secondary-3;
     .home-section-stories {
+      .bg-pattern-4-about-3 {
+        top: 0;
+        left: 0;
+      }
+      .bg-pattern-5 {
+        bottom: 0;
+        right: 0;
+      }
       text-align: center;
       h2 {
         margin-bottom: 100px;
@@ -127,8 +153,14 @@
   .section-wrapper-contact {
     background-color: $clr-primary-2;
     min-height: 200px;
+    .bg-pattern-6-about-5 {
+      bottom: 0;
+    }
     * {
       color: $clr-secondary-4;
+    }
+    .home-section-contact {
+      padding-left: 200px;
     }
     .btn-contact {
       border-color: $clr-secondary-4;
